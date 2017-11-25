@@ -3,7 +3,7 @@ from modeller.automodel import *
 #from modeller import soap_protein_od
 
 env = environ()
-a = automodel(env, alnfile='qseq1-5uenA.ali',
+a = automodel(env, alnfile='aln2.ali',
               knowns='5uenA', sequence='qseq1',
               assess_methods=(assess.DOPE,
                               #soap_protein_od.Scorer(),
